@@ -1,4 +1,4 @@
-# Aim: To study and implement C++Pointer basics.
+# Aim: To Study and Implement C++Pointer Basics.
 
 ## Tool: VS CODE.
 
