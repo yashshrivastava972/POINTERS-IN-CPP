@@ -110,7 +110,7 @@ Step-by-Step Algorithm For 9D - Print String Using Pointer:
     Increment the pointer → ptr++
 - End.
 
-  ## Conclusion:
+## Conclusion:
 Pointers in C++ allow direct access and manipulation of memory.
 They enable efficient data traversal, arithmetic operations, and string handling.
 Using pointer arithmetic, arrays and strings can be navigated flexibly.
