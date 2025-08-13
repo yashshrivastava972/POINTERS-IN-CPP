@@ -49,17 +49,69 @@ A pointer is a variable that stores the memory address of another variable.
 - Avoids copying large structures by passing pointers.
 - Enables shared access to data without duplication.
 
-# Algorithms:
+## Algorithms:
 
+Step-by-Step Algorithm For 9A - Arithmetic Using Pointers:
 
+- Start
+- Declare an integer variable a and initialize it.
+- Declare an integer pointer aptr and assign it the address of a.
+- Display the address stored in aptr before incrementing.
+- Increment aptr using aptr++.
+- Display the address stored in aptr after incrementing.
+- Repeat steps 2–6 for:
+- A float variable b and pointer bptr
+- A double variable c and pointer cptr
+- A bool variable d and pointer dptr
+- Observe how the address changes based on the data type size.
+- End.
 
+Step-by-Step Algorithm For 9B - Addition and Subtraction Using Pointers:
 
+- Start
+- Declare two integer variables a and b
+- Initialize a ← 20, b ← 25
+- Declare two integer pointers aptr and bptr
+- Assign the address of a to aptr → aptr ← &a
+- Assign the address of b to bptr → bptr ← &b
+- Dereference both pointers to access values:
+    *aptr gives value of a
+    *bptr gives value of b
+- Compute sum: sum ← *aptr + *bptr
+- Display sum
+- Compute difference: diff ← *aptr - *bptr
+- Display diff
+- End.
 
+Step-by-Step Algorithm For 9C - Reverse Array Using Pointer:
 
+- Start
+- Declare an integer variable n
+- Prompt the user to enter the number of elements
+- Read value into n
+- Declare an integer array arr of size n
+- Prompt the user to enter n elements
+- Read each element into arr[i] using a loop from i = 0 to n - 1
+- Initialize a pointer ptr to point to the last element of the array → ptr = arr + n - 1
+- Loop from i = 0 to n - 1:
+   Print the value pointed to by ptr → *ptr
+   Decrement the pointer → ptr--
+- End.
 
+Step-by-Step Algorithm For 9D - Print String Using Pointer:
 
+- Start
+- Declare a character array str and initialize it with a string (e.g., "YASH SHRIVASTAVA")
+- Declare a character pointer ptr
+- Assign the address of the first character of str to ptr → ptr = str
+- Display "String: " as a label
+- Repeat while *ptr ≠ '\0' (null terminator):
+    Print the character pointed to by ptr → *ptr
+    Increment the pointer → ptr++
+- End.
 
-
-
-
-
+  ## Conclusion:
+Pointers in C++ allow direct access and manipulation of memory.
+They enable efficient data traversal, arithmetic operations, and string handling.
+Using pointer arithmetic, arrays and strings can be navigated flexibly.
+Mastering pointer basics lays the foundation for advanced C++ programming.
