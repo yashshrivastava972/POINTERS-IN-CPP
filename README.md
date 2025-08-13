@@ -1,1 +1,1 @@
-# POINTERS-IN-CPP
+## Aim: To study and implement C++Pointer basics
